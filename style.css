@@ -1,0 +1,120 @@
+/* 1. Universal Selector */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+/* 2. Body Styling */
+body {
+font-family: Arial, sans-serif;
+background-color: #f1f5f2;
+padding: 40px 15px;
+}
+
+/* 3. Form Container */
+form {
+background-color: white;
+max-width: 600px;
+margin: auto;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Main Heading */
+h1 {
+color: #198754;
+text-align: center;
+margin-bottom: 20px;
+font-size: 30px;
+}
+
+/* 5. Secondary Heading */
+h2 {
+color: #198754;
+margin-top: 25px;
+margin-bottom: 20px;
+}
+
+/* 6. Paragraphs */
+p {
+color: #444;
+margin-top: 15px;
+margin-bottom: 12px;
+line-height: 1.5;
+}
+
+/* 7. Ordered List */
+ol {
+margin-left: 25px;
+color: #555;
+line-height: 1.8;
+}
+
+/* 8. Labels */
+label {
+font-weight: bold;
+color: #333;
+}
+
+/* 9. Text and File Inputs */
+input[type="text"],
+input[type="file"] {
+width: 100%;
+padding: 12px;
+margin-top: 8px;
+border: 1px solid #ccc;
+border-radius: 6px;
+margin-bottom: 15px;
+}
+
+/* 10. Input Focus Effect */
+input:focus {
+outline: none;
+border-color: #198754;
+box-shadow: 0 0 5px rgba(25, 135, 84, 0.3);
+}
+
+/* 11. Radio Buttons */
+input[type="radio"] {
+margin: 12px 5px 12px 0;
+accent-color: #198754;
+}
+
+/* 12. Submit Button */
+button {
+width: 100%;
+padding: 13px;
+background-color: #198754;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 20px;
+}
+
+/* 13. Button Hover Effect */
+button:hover {
+background-color: #146c43;
+}
+
+/* 14. Mobile Responsiveness */
+@media (max-width: 600px) {
+body {
+padding: 15px 10px;
+}
+
+```
+form {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 25px;
+}
+```
+
+}

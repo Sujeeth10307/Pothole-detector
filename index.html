@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pothole detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="scripts.js"defer></script>
+    <form>
+
+    <h1>Pothole detector</h1>
+    <p>Follow this order</p>
+    <ol>
+        <li>Take a photo</li>
+        <li>Enter location</li>
+        <li>Enter reference location</li>
+        <li>Enter sevirity</li>
+        <li>Enter whether water is present or not</li>
+    </ol>
+    <p>post the potholes in your area to help us to report it.</p>
+    <h2>Report the pothole</h2>
+    <label for="location">Location:</label>
+    <input required id="location" type="text">
+    <br><br>
+    <label for="reference">Reference location:</label>
+    <input required id="reference" type="text">
+    <br><br>
+    <label for="file">Upload the image:</label>
+    <input required id="file" type="file">
+   
+    <p>Enter the severity</p>
+    <label for="low"></label>
+    <input id="low" type="radio" name="severity" required>Low
+    <label for="med"></label>
+    <input id="med" type="radio" name="severity">Medium
+    <label for="high"></label>
+    <input id="high" type="radio" name="severity">High
+    <p>Water is present in pothole?</p>
+    <label for="yes"></label>
+    <input id="yes" type="radio" name="wat">Yes
+    <label for="no"></label>
+    <input id="no" type="radio" name="wat">No
+    <br><br>
+    <button>Submit</button>
+    </form>
+
+
+</body>
+</html>
